@@ -13,15 +13,11 @@ $ ./a.out
 
 By default gcc will compile the program, and if no errors are found, produce an
 executable called a.out.  Since the computer isn't used to running programs
-located in the current directory, you must run with with a ./ prefix:
+located in the current directory, you must run with with the ./ prefix:
 ```
 $ ./a.out
 ```
 
-All class examples will be posted to this github repository.  To get an updated
-version of all files, on the command line type:
-```
-$ git pull  
-```
+All class examples will be posted to this github repository.
 
 We will go over basic Unix commands in class!
