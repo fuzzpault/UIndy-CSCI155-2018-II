@@ -8,7 +8,7 @@
 
 int main(){
 	
-	/*
+	
 	float weight = 0.0;
 	float miles = 0.0;
 	
@@ -32,7 +32,7 @@ int main(){
 	
 	printf("You'd need to walk %f miles to burn that off!\n", cake_pieces * 352 / weight / 0.53);
 	printf("You'd need to run %f miles to burn that off!", cake_pieces * 352 / weight / 0.75);
-	*/
+	
 	float f = 0.0;
 	float mph = 0.0;
 	
