@@ -8,6 +8,7 @@
 
 int main(){
 	
+	/*
 	float weight = 0.0;
 	float miles = 0.0;
 	
@@ -31,7 +32,7 @@ int main(){
 	
 	printf("You'd need to walk %f miles to burn that off!\n", cake_pieces * 352 / weight / 0.53);
 	printf("You'd need to run %f miles to burn that off!", cake_pieces * 352 / weight / 0.75);
-	 
+	*/
 	float f = 0.0;
 	float mph = 0.0;
 	
@@ -40,7 +41,7 @@ int main(){
 	printf("What is the wind speed in mph?\n");
 	scanf("%f", &mph);
 	// Formula only valid for mph less than 3
-	if( mph < 3.0){
+	if( mph < 3.0 || f >= 50){
 		printf("It feels like %f\n", f);
 	}else{
 		printf("It feels like %f\n", 

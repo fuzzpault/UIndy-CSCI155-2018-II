@@ -13,7 +13,6 @@ int main(){
 	scanf("%f", &inches);
 	printf("%f inches = %f feet\n", inches, inches / 12.0);
 	
-	
 	float f = 0.0;
 	printf("Give me a fahrenheit and I'll convert it to celcius.\n");
 	scanf("%f", &f);
