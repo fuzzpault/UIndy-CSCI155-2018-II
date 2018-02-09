@@ -1,8 +1,7 @@
 /*
 	Name: Paul Talaga
 	Date: Feb 6, 2018
-	Desc: Will tell you if a number is even or odd, it's factors, and if
-		  if it is prime.
+	Desc: Examples of bad if statements.
 */
 #include <stdio.h>
 
@@ -13,20 +12,21 @@ int main(){
 	
 	if(number % 2 == 0){
 		printf("That is even.\n");
-		// If it is also a multiple of 3, print that out.
-		// Note this will not be triggered if 9 is entered because 9 is not even.
-		if(number % 3){
+		if(number % 3 == 0){
 			printf("That is also a multiple of 3.\n");
+			// Note this will only be run when a number is even AND it is a multiple of 3.
+			// It is better to not nest.
 		}
 	}
 	
-	// NEVER do this!  Please always use {} OR place it on the same line.
+	// Even though this works (no {}), DON'T do this as it leads to confusing execution.
 	if(number % 2 == 0) 
 		printf("That is even.\n");
-		
-	// This style is OK, if on the same line.
-	if( number == 2)printf("Number is 2! %d\n", number);
 	
+	// ALWAYS use {} with an if statement!
+	if( number == 2){
+		printf("Number is 2! %d\n", number);
+	}
 	
 	return 0;
 }

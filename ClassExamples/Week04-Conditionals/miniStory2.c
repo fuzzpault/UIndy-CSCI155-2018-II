@@ -1,3 +1,9 @@
+/*
+	Name: Paul Talaga
+	Date: Feb 8, 2018
+	Desc: Sample mini-RPG program using conditionals, randomness,
+		  and variables.
+*/
 #include <stdio.h>
 
 int main(){

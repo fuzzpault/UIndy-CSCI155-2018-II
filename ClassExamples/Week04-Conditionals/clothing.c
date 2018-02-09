@@ -1,7 +1,7 @@
 /*
 	Name: Paul Talaga
 	Date: Feb 6, 2018
-	Desc: What clothing should you wear based on the temperature?
+	Desc: Using conditionals to detect ranges of a variable.
 */
 #include <stdio.h>
 
@@ -21,7 +21,8 @@ int main(){
 	}else if(temp < 100.0){
 		printf("shorts and t-shirt.\n");
 	}else{
-		printf("... huh? Stay inside or go to the pool.");
+		printf("... huh? Stay inside or go to the pool!");
 	}
 	
+	return 0;
 }
