@@ -27,6 +27,9 @@ main(){
 	clementine[2] = *(clementine);
 	*(grape) = elderberry;
 	*(grape + clementine[3]) = &clementine[8];
+	// the last line is equivelent to grape[clementine[3]] = &clementine[8];
+	
+	//This is the same!  bob[3]   ===  *(bob + 3)
 	
 	// Print everything out to the screen
 	
